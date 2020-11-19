@@ -1,8 +1,8 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: '/ffmpeg-wasm-gif-converter-study/',
-    src: '/ffmpeg-wasm-gif-converter-study/_dist_',
+    public: '/',
+    src: '/_dist_',
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv'],
   install: [
@@ -15,7 +15,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    baseUrl: 'https://chosunghyun.com/ffmpeg-wasm-gif-converter-study/',
   },
   proxy: {
     /* ... */
