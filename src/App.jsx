@@ -10,7 +10,9 @@ function App() {
   const [gif, setGif] = useState();
 
   const load = async () => {
+    console.log('starting to load FFMpeg...');
     await ffmpeg.load();
+    console.log('finished loading FFMpeg...');
     setReady(true);
   };
 

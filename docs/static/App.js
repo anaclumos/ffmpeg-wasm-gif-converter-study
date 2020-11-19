@@ -7,7 +7,9 @@ function App2() {
   const [video, setVideo] = useState();
   const [gif, setGif] = useState();
   const load = async () => {
+    console.log("starting to load FFMpeg...");
     await ffmpeg2.load();
+    console.log("finished loading FFMpeg...");
     setReady(true);
   };
   useEffect(() => {
