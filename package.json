@@ -2,7 +2,7 @@
   "homepage": "chosunghyun.com/ffmpeg-wasm-gif-converter-study/",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build && rm -rf docs && mv build docs",
+    "build": "snowpack build && rm -rf docs && mv build docs && touch docs/.nojekyll",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
