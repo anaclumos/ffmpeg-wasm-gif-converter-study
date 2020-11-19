@@ -15,7 +15,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    baseUrl: 'https://chosunghyun.com/ffmpeg-wasm-gif-converter-study/',
+    baseUrl: '/ffmpeg-wasm-gif-converter-study/',
   },
   proxy: {
     /* ... */
